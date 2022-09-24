@@ -2,7 +2,7 @@
 
 #logo img{
    align-items: center;
-   margin-left: 95px;
+   margin-left: -163px;
    margin-top: 24px;
 }
 
@@ -12,7 +12,7 @@
 
 #navbar ul {
     margin-top: -12px;
-    margin-left: 130px;
+    margin-left: -190px;
     margin-bottom: 20px;
 }
 
@@ -21,28 +21,40 @@
 #home h1{
     padding-top: 165px;
     font-size: 2.6rem;
+    margin-right: -100px;
+}
+
+#home::before{
+    width: 112%;
 }
 
 #home p{
-    padding-bottom: 12px;
+    padding-bottom: 32px;
+    margin-right: -100px;
+    
 }
-/* Services  */
+
+.btn{
+    margin-right: -30px;
+}
+/* services  */ 
 
 #services{
     flex-direction: column;
     margin-right: -80px;
 }
 
-.service-container h1{
+#service-container h1{
+    justify-items: center;
     text-align: center;
-    margin-right: -15px;
-    margin-top: 65px;
-     margin-bottom: -20px;
+    margin-right: -65px;
+    margin-top: 55px;
+     margin-bottom: -30px;
 }
 
 #services .box{
     margin: 15px;
-    width: 80%;
+    width: 87%;
 }
 
 /* Partners */
@@ -54,20 +66,41 @@
 .partners{
     justify-content: space-around;
     margin-top: 10px;
-    /* margin-right: -8px;
-    margin-left: -8px; */
+
     width: 100%;
+}
+
+#Partners-section h1{
+    margin-right: -80px;
 }
 
 .partner-items img{
     height: 150px;
-    margin: -35px;
+    margin: -25px;
     margin-top: 8px;
 
 }
 
+#Partners-section::before{
+    width: 140%;
+}
+
 #zomato{
     margin-right: 50px;
-    margin-left: 40px;
+    margin-left: 140px;
     height: 140px;
+}
+
+/* Contact us */
+
+#contact-section::before{
+    width: 107%;
+}
+
+#contact-section h1{ 
+margin-right: -60px;
+}
+
+.contact-box{
+    margin-right: -60px;
 }
