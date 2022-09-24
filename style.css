@@ -93,7 +93,7 @@ html{
     content: "";    
     position: absolute;
     height: 90%;
-    width: 130%;
+    width: 100%;
     opacity: 0.8;
 }
 
@@ -170,7 +170,7 @@ html{
     content: "";
     position: absolute;
     background: url('Background/lukas-blazek-f-TWhXOrLiU-unsplash.jpg') no-repeat center center/cover;
-    width: 120%;
+    width: 100%;
     height: 80%;
     z-index: -1;
     opacity: 0.6;
