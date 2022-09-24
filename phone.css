@@ -1,0 +1,73 @@
+/* Navigation bar */
+
+#logo img{
+   align-items: center;
+   margin-left: 95px;
+   margin-top: 24px;
+}
+
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul {
+    margin-top: -12px;
+    margin-left: 130px;
+    margin-bottom: 20px;
+}
+
+/* Home */
+
+#home h1{
+    padding-top: 165px;
+    font-size: 2.6rem;
+}
+
+#home p{
+    padding-bottom: 12px;
+}
+/* Services  */
+
+#services{
+    flex-direction: column;
+    margin-right: -80px;
+}
+
+.service-container h1{
+    text-align: center;
+    margin-right: -15px;
+    margin-top: 65px;
+     margin-bottom: -20px;
+}
+
+#services .box{
+    margin: 15px;
+    width: 80%;
+}
+
+/* Partners */
+
+.partner-items{
+    padding-top: 10px;
+}
+
+.partners{
+    justify-content: space-around;
+    margin-top: 10px;
+    /* margin-right: -8px;
+    margin-left: -8px; */
+    width: 100%;
+}
+
+.partner-items img{
+    height: 150px;
+    margin: -35px;
+    margin-top: 8px;
+
+}
+
+#zomato{
+    margin-right: 50px;
+    margin-left: 40px;
+    height: 140px;
+}
